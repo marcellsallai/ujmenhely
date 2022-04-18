@@ -21,7 +21,7 @@ function Register() {
 
       localStorage.setItem("firstLogin", true);
 
-      window.location.href = "/kezdo";
+      window.location.href = "/fooldal";
     } catch (err) {
       alert(err.response.data.msg);
     }

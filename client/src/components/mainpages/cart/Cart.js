@@ -81,7 +81,7 @@ function Cart() {
 
 
     if(cart.length === 0) 
-        return <h2 style={{textAlign: "center", fontSize: "3rem"}}>Örökbefogadás </h2> 
+        return <h2 style={{textAlign: "center", fontSize: "3rem", fontFamily:"Wellfleet", color:"rgb(138, 69, 4)"}}>Jelenleg egy termék sincs hozzáadva a kosaradhoz. </h2> 
         
         
 

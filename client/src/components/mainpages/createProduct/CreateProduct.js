@@ -9,8 +9,8 @@ const initialState = {
     product_id: '',
     title: '',
     price: 0,
-    description: 'How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.',
-    content: 'Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.',
+    description: 'Kérjük adja meg az állat/támogatói kártya fontosabb adatait.',
+    content: 'Kérjük adja meg az állat/támogatói kártya részletesebb adatait.',
     category: '',
     _id: ''
 }
@@ -52,16 +52,16 @@ function CreateProduct() {
     const handleUpload = async e =>{
         e.preventDefault()
         try {
-            if(!isAdmin) return alert("You're not an admin")
+            if(!isAdmin) return alert("Nem vagy admin")
             const file = e.target.files[0]
             
-            if(!file) return alert("File not exist.")
+            if(!file) return alert("A fájl nem létezik")
 
             if(file.size > 1024 * 1024) // 1mb
-                return alert("Size too large!")
+                return alert("A méret túl nagy!")
 
             if(file.type !== 'image/jpeg' && file.type !== 'image/png') // 1mb
-                return alert("File format is incorrect.")
+                return alert("A fájl formátuma nem megfelelő")
 
             let formData = new FormData()
             formData.append('file', file)
@@ -80,7 +80,7 @@ function CreateProduct() {
 
     const handleDestroy = async () => {
         try {
-            if(!isAdmin) return alert("You're not an admin")
+            if(!isAdmin) return alert("Nem vagy admin")
             setLoading(true)
             await axios.post('/api/destroy', {public_id: images.public_id}, {
                 headers: {Authorization: token}
@@ -100,8 +100,8 @@ function CreateProduct() {
     const handleSubmit = async e =>{
         e.preventDefault()
         try {
-            if(!isAdmin) return alert("You're not an admin")
-            if(!images) return alert("No Image Upload")
+            if(!isAdmin) return alert("Nem vagy admin")
+            if(!images) return alert("Nincs képfeltöltés")
 
             if(onEdit){
                 await axios.put(`/api/products/${product._id}`, {...product, images}, {
@@ -139,7 +139,7 @@ function CreateProduct() {
 
             <form onSubmit={handleSubmit}>
                 <div className="row">
-                <label htmlFor="product_id">allat_id</label>
+                <label htmlFor="product_id">állat_id</label>
                     <input type="text" name="product_id" id="product_id" required
                     value={product.product_id} onChange={handleChangeInput} disabled={onEdit} />
                 </div>

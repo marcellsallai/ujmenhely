@@ -90,9 +90,9 @@ function OrderHistory() {
             <table>
                 <thead>
                     <tr>
-                        <th style={{fontFamily: "Wellfleet"}}>Payment ID</th>
-                        <th style={{fontFamily: "Wellfleet"}}>Date of Purchased</th>
-                        <th></th>
+                        <th style={{fontFamily: "Wellfleet"}}>Fizetési azonosító</th>
+                        <th style={{fontFamily: "Wellfleet"}}>Vásárlás dátuma</th>
+                        <th style={{fontFamily: "Wellfleet"}}>További információk</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -101,7 +101,7 @@ function OrderHistory() {
                             <tr key={items._id}>
                                 <td>{items.paymentID}</td>
                                 <td>{new Date(items.createdAt).toLocaleDateString()}</td>
-                                <td><Link to={`/history/${items._id}`}>View</Link></td>
+                                <td><Link style={{color:"white"}} to={`/history/${items._id}`}>Megtekintés</Link></td>
                             </tr>
                         ))
                     }

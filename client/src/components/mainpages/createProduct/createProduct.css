@@ -27,7 +27,7 @@
     height: 100%;
     top:0;
     left: 0;
-    background: white;
+    background: rgb(75, 52, 2);
     color: rgb(250, 200, 107);
     font-size: 17rem;
     text-align: center;
@@ -70,6 +70,7 @@
 .create_product form .row{
     width: 100%;
     margin: 15px 0;
+    border: 3px solid rgb(138, 69, 4) ;
 }
 .create_product form input, textarea{
     width: 100%;
@@ -79,7 +80,7 @@
 .create_product form button{
     width: 200px;
     height: 40px;
-    background: #555;
+    background: rgb(75, 52, 2);
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
