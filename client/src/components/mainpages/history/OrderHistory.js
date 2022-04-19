@@ -37,12 +37,11 @@ function OrderHistory() {
             <h3 style={{ fontFamily: "Wellfleet", color:"rgb(138, 69, 4)"}}>Amint egyszer megtudod, mi a szeretet, készen állsz arra, hogy adj; minél többet adsz, annál több lesz neked. Minél bőkezűbben halmozol el másokat, annál több szeretet tör fel a lényedben. /Osho/</h3>
             </div>
             <div className="masodik-szoveg">
-            <div className="masodik-szoveg">
             <h4 style={{ fontFamily: "Wellfleet"}}>Örökbefogadással kapcsolatos információk</h4>
             <div className='orokszoveg'><h2><u>Tisztelt Hölgyem, Uram! Kedves leendő gazdi!</u></h2>
             <p>Üdvözöljük a Fürge Lábak Állatmenhelyen, ahol a kóbor és a  leadott állatokból fogadhat örökbe.</p>
 
-            <p>Örökbefogadási szándékát jelenleg e-mail-en tudja jelezni munkatársunknak az furgelabakallatmenhely@gmail.com e-mail címen. Kérjük, mielőtt jelentkezne, tekintse meg gazdára váró állatainkat. Amennyiben talál a fotó és leírás alapján olyan állatot, aki felkeltette érdeklődését, kérjük írjon nekünk e-mailt.</p>
+            <p>Örökbefogadási szándékát jelenleg e-mail-en tudja jelezni munkatársunknak az furgelabakallatmenhely@gmail.com e-mail címen. Kérjük, mielőtt jelentkezne, tekintse meg gazdára váró állatainkat. Amennyiben talál a fotó és leírás alapján olyan állatot, aki felkeltette érdeklődését, akkor 5000Ft előre utalással le is tudja foglalni az adott állatot. Ezt követően kérjük írjon nekünk e-mailt.</p>
 
             <p>A e-mail beérkezése után mi fogjuk Önöket keresni, ez a jelentkezések és a feldolgozandó e-mailok számától függően az 1-2 naptól akár az egy hétig is eltarthatnak, türelmüket és megértésüket köszönjük!</p>
 
@@ -61,7 +60,7 @@ function OrderHistory() {
             <p>Azért, hogy a jövőben az állatmenhelyre kerülő állatok is hasonló ellátásban részesüljenek, a kutya esetében 10.000Ft felajánlásával járuljon hozzá a rendszer további működéséhez.</p>
 
             <p><b><u>A macskák</u> </b>az állatmenhelyen  a következő ellátásban részesülnek: 6 hónapos kor alatt: külső- és belső parazitamentesítés, legalább két, fertőző betegségek elleni védőoltás, mikrochip beültetés, 6 hónapos kor felett: külső- és belső parazitamentesítés, legalább két, fertőző betegségek elleni védőoltás, mikrochip beültetés, ivartalanítás, fertőző betegségekre (FeLV, FIV, FIP) vonatkozó szűrővizsgálatok.
-            Azért, hogy a jövőben a menhelyünkre kerülő állatok is hasonló ellátásban részesüljenek, kérjük, hogy . 10.000 Ft felajánlásával járuljon hozzá a rendszer további működéséhez. Kérjük, hogy a leendő gazdi az örökbefogadáskor hozzon magával cicahordozót, mert enélkül veszélyes az új családtag utaztatása.</p>
+            Azért, hogy a jövőben a menhelyünkre kerülő állatok is hasonló ellátásban részesüljenek, kérjük, hogy 10.000 Ft felajánlásával járuljon hozzá a rendszer további működéséhez. Kérjük, hogy a leendő gazdi az örökbefogadáskor hozzon magával cicahordozót, mert enélkül veszélyes az új családtag utaztatása.</p>
 
             <hr></hr>
 
@@ -81,7 +80,7 @@ function OrderHistory() {
             <p>Érdemes átgondolni,  hogy a családhoz milyen kedvenc lenne a legjobb társ. Aktív, játékos, pajkos, könnyen tanítható, vagy épp már kicsit nyugodtabb, kiegyensúlyozottabb, aki többet pihen, vagy épp akkor jön, megy mikor mi szeretnénk. Az utóbbi esetben érdemesebb már idősebb, nem kölyök vagy kamasz kutyát választani.</p>
             </div>
             </div>
-            </div>
+
             <h4 className="kedves">Kedves leendő gazdi!</h4>
             <p></p>
             <h4 style={{fontFamily: "Wellfleet"}}>Jelenleg {history.length} rendelésed van</h4>
