@@ -114,13 +114,7 @@ function Cart() {
                 ))
 
             }
-<div className="orokb">
-    
-    <p>„Milyen jó lenne egy kutya!” - sokunk számára ilyen egyszerűen kezdődött. Gyakran nem magyarázható, nem indokolható, hogy miért szeretnénk kutyát.</p>
-    <h2>Ha eldöntöttük, hogy örökbe fogadunk egy kutyát</h2>
-    <h3>Milyen kutyát válasszunk?</h3>
-    <p></p>
-</div>           
+           
             <div className="total">
                 <h3>Összesen: Ft {total}</h3>
                 <PaypalButton

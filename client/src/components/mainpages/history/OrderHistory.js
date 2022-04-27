@@ -86,7 +86,7 @@ function OrderHistory() {
             <h4 style={{fontFamily: "Wellfleet"}}>Jelenleg {history.length} rendelésed van</h4>
 
             
-            <table>
+            {/* <table>
                 <thead>
                     <tr>
                         <th style={{fontFamily: "Wellfleet"}}>Fizetési azonosító</th>
@@ -105,7 +105,7 @@ function OrderHistory() {
                         ))
                     }
                 </tbody>
-            </table>
+            </table> */}
         </div>
     )
 }
