@@ -41,7 +41,7 @@ function OrderHistory() {
             <div className='orokszoveg'><h2><u>Tisztelt Hölgyem, Uram! Kedves leendő gazdi!</u></h2>
             <p>Üdvözöljük a Fürge Lábak Állatmenhelyen, ahol a kóbor és a  leadott állatokból fogadhat örökbe.</p>
 
-            <p>Örökbefogadási szándékát jelenleg e-mail-en tudja jelezni munkatársunknak az furgelabakallatmenhely@gmail.com e-mail címen. Kérjük, mielőtt jelentkezne, tekintse meg gazdára váró állatainkat. Amennyiben talál a fotó és leírás alapján olyan állatot, aki felkeltette érdeklődését, akkor 5000Ft előre utalással le is tudja foglalni az adott állatot. Ezt követően kérjük írjon nekünk e-mailt.</p>
+            <p>Örökbefogadási szándékát jelenleg e-mail-en tudja jelezni munkatársunknak az furgelabakallatmenhely@gmail.com e-mail címen. Kérjük, mielőtt jelentkezne, tekintse meg gazdára váró állatainkat.</p>
 
             <p>A e-mail beérkezése után mi fogjuk Önöket keresni, ez a jelentkezések és a feldolgozandó e-mailok számától függően az 1-2 naptól akár az egy hétig is eltarthatnak, türelmüket és megértésüket köszönjük!</p>
 
@@ -52,6 +52,9 @@ function OrderHistory() {
             <p>2 hétnél tovább visszatartani semmilyen állatot nem áll módunkban, ezért kérjük, hogy jelentkezését csak utazás, költözés UTÁN adja be hozzánk!</p>
 
             <p>Mielőtt kimennénk a menhelyre, a honlapon nézzük meg és olvassuk el a nekünk tetsző kutya, macska jellemét, bekerülésének okát, körülményeit. </p>
+            <p>
+            Amennyiben talál a fotó és leírás alapján olyan állatot, aki felkeltette érdeklődését, akkor a menhely oldalán le is tudja foglalni, az ön által kiválasztott kiskedvencet.<b> Annak érdekében, hogy meggyőződjünk komoly szándékáról,  5000 forint értékben tudja lefoglalni az állatot előreutalással.  A teljes összeget az állat végleges örökbefogadásánál kell befizetnie, ami csak és kizárólag személyesen, a menhelyen történhet meg.</b>
+            </p>
 
             <hr></hr>
 
